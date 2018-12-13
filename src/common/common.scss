@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: 'PingFang-SC-Regular';
+    src: url("../assets/fonts/PingFang-Regular/PingFang-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'PingFang-SC-Semibold';
+    src: url("../assets/fonts/PingFang-SC/PingFang-SC-Semibold.woff") format("woff");
+}
+@font-face {
+    font-family: 'PingFang-SC-Medium';
+    src: url("../assets/fonts/PingFang-SC/PingFang-SC-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: 'DIN-Alternate-Bold';
+    src: url("../assets/fonts/DIN/DIN-Alternate-Bold.woff") format("woff");
+}
+
+@keyframes breath {
+    0%  { transform: scale(1) }
+    50% { transform: scale(1.05) }
+    100% { transform: scale(1) }
+}
+@keyframes flash {
+    0%  { opacity: 1 }
+    40% { opacity: .4 }
+    100% { opacity: 1 }
+}
+@keyframes roll {
+    0%  { width: 290px }
+    4% { width: 0 }
+    10% { width: 290px }
+    100% { width: 290px }
+}
+/*@keyframes roll--right {
+    0%  { background-position: -290px }
+    50% { background-position: 0 }
+    70% { background-position: 0 }
+    100% { background-position: -290px }
+}*/

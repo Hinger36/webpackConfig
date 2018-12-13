@@ -1,0 +1,343 @@
+body {
+    background-color: #000;
+}
+.container {
+    position: relative;
+    width: 2540px;
+    height: 1536px;
+    background: url('../../assets/img/bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/img/zu14@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.title__bg {
+    position: absolute;
+    animation: flash 3s infinite ease-in;
+    top: 127px;
+    left: 613px;
+    width: 788px;
+    height: 221px;
+    background: url('../../assets/img/tc6@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line3 {
+    position: absolute;
+    top: 471px;
+    left: 753px;
+    width: 71px;
+    height: 319px;
+    background: url('../../assets/img/xz3@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line4 {
+    position: absolute;
+    top: 474px;
+    left: 1114px;
+    width: 46px;
+    height: 319px;
+    background: url('../../assets/img/xz4@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line5 {
+    position: absolute;
+    top: 553px;
+    left: 1268px;
+    width: 98px;
+    height: 180px;
+    background: url('../../assets/img/xz5@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line6 {
+    position: absolute;
+    top: 888px;
+    left: 1266px;
+    width: 228px;
+    height: 250px;
+    background: url('../../assets/img/xz6@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line7 {
+    position: absolute;
+    top: 876px;
+    left: 1124px;
+    width: 245px;
+    height: 348px;
+    background: url('../../assets/img/xz7@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line9 {
+    position: absolute;
+    top: 944px;
+    left: 822px;
+    width: 104px;
+    height: 433px;
+    background: url('../../assets/img/xz9@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line10 {
+    position: absolute;
+    top: 1056px;
+    left: 935px;
+    width: 46px;
+    height: 313px;
+    background: url('../../assets/img/xz10@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line11 {
+    position: absolute;
+    top: 986px;
+    left: 665px;
+    width: 109px;
+    height: 310px;
+    background: url('../../assets/img/xz11@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line12 {
+    position: absolute;
+    top: 1027px;
+    left: 490px;
+    width: 154px;
+    height: 189px;
+    background: url('../../assets/img/xz12@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line13 {
+    position: absolute;
+    top: 952px;
+    left: 331px;
+    width: 274px;
+    height: 144px;
+    background: url('../../assets/img/xz13@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line14 {
+    position: absolute;
+    top: 536px;
+    left: 436px;
+    width: 72px;
+    height: 269px;
+    background: url('../../assets/img/xz14@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line15 {
+    position: absolute;
+    top: 677px;
+    left: 294px;
+    width: 132px;
+    height: 127px;
+    background: url('../../assets/img/xz15@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.line16 {
+    position: absolute;
+    top: 821px;
+    left: 273px;
+    width: 203px;
+    height: 68px;
+    background: url('../../assets/img/xz16@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.tip1 {
+    animation: roll 20s infinite ease-in-out;
+    position: absolute;
+    top: 414px;
+    left: 787px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/fxj.png') no-repeat;
+    background-size: cover;
+}
+.tip2 {
+    animation: roll 20s 1.5s infinite ease-in-out;
+    position: absolute;
+    top: 418px;
+    left: 1123px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/xj@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip3 {
+    animation: roll 20s 3s infinite ease-in-out;
+    position: absolute;
+    top: 491px;
+    left: 1330px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/gb@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip4 {
+    animation: roll 20s 4.5s infinite ease-in-out;
+    position: absolute;
+    top: 1063px;
+    left: 1458px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/ts@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip5 {
+    animation: roll 20s 6s infinite ease-in-out;
+    position: absolute;
+    top: 1149px;
+    left: 1331px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/kh@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip6 {
+    animation: roll 20s 7.5s infinite ease-in-out;
+    position: absolute;
+    top: 1294px;
+    left: 945px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/dw@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip7 {
+    animation: roll 20s 9s infinite ease-in-out;
+    position: absolute;
+    top: 1310px;
+    left: 565px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/yb@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip8 {
+    animation: roll 20s 10.5s infinite ease-in-out;
+    position: absolute;
+    top: 1225px;
+    left: 412px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/yd@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip9 {
+    animation: roll 20s 12s infinite ease-in-out;
+    position: absolute;
+    top: 1145px;
+    left: 236px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/24@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip10 {
+    animation: roll 20s 13.5s infinite ease-in-out;
+    position: absolute;
+    top: 1027px;
+    left: 79px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/zn@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip11 {
+    animation: roll 20s 15s infinite ease-in-out;
+    position: absolute;
+    top: 768px;
+    left: 20px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/ty@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip12 {
+    animation: roll 20s 16.5s infinite ease-in-out;
+    position: absolute;
+    top: 622px;
+    left: 40px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/gjs@2x.png') no-repeat;
+    background-size: cover;
+}
+.tip13 {
+    animation: roll 20s 18s infinite ease-in-out;
+    position: absolute;
+    top: 483px;
+    left: 183px;
+    width: 290px;
+    height: 129px;
+    background: url('../../assets/img/dz@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.title {
+    // animation: breath 2.5s infinite;
+    position: relative;
+    font-family: 'PingFang-SC-Semibold';
+    font-size: 72px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 140px;
+    color: #CFDEF6;
+}
+.aside {
+    position: absolute;
+    top: 396px;
+    right: 62px;
+    width: 695px;
+    height: 1014px;
+    background: url('../../assets/img/zu37@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.aside__top {
+    position: absolute;
+    top: 105px;
+    left: 90px;
+    width: 520px;
+    height: 350px;
+}
+.aside__bottom {
+    position: absolute;
+    bottom: 105px;
+    left: 90px;
+    width: 520px;
+    height: 350px;
+}
+.customer {
+    position: absolute;
+    font-family: 'PingFang-SC-Semibold';
+    top: 65px;
+    right: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    width: 160px;
+    height: 230px;
+    padding: 55px 20px 0 20px;
+    box-sizing: border-box;
+}
+.customer p {
+    display: inline-block;
+}
+.aside__top--line {
+    position: absolute;
+    top: 124px;
+    left: 47px;
+    width: 190px;
+    height: 169px;
+    background: url('../../assets/img/zu35@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.aside__bottom--line {
+    position: absolute;
+    top: 117px;
+    left: 24px;
+    width: 233px;
+    height: 176px;
+    background: url('../../assets/img/zu34@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
