@@ -125,21 +125,11 @@ module.exports = {
 					priority: 10    
 				},
                 utils: { // 抽离自己写的公共代码，common这个名字可以随意起
-                    test: /\.js$/,
 					chunks: 'initial',
 					name: 'common',  // 任意命名
 					minSize: 0,    // 只要超出0字节就生成一个新包
 					minChunks: 2
-                },
-                // style: {
-                //     test: /\.(css|scss|sass)$/,
-                //     name: 'common',
-                //     chunks: 'all',
-                //     minChunks: 2,
-                //     minSize: 0,
-                //     enforce: true,
-                //     // priority: 20,
-                // }
+                }
 			}
 		}
     },

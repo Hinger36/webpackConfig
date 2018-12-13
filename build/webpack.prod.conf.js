@@ -27,7 +27,7 @@ const prodWebpackConfig = {
 		// 分离css插件参数为提取出去的路径
 		new MiniCssExtractPlugin({
             filename: "css/[name].[hash:8].min.css",
-            chunkFilename: "[id].css"
+            // chunkFilename: "[id].css"
 		}),
 		new UglifyJsPlugin({
 			uglifyOptions: {
