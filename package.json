@@ -8,10 +8,7 @@
     "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.conf.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.conf.js"
   },
-  "dependencies": {
-    "lottie-web": "^5.4.2",
-    "typed.js": "^2.0.9"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@babel/plugin-transform-runtime": "^7.2.0",

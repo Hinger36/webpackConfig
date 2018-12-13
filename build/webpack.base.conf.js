@@ -73,7 +73,7 @@ module.exports = {
             },
             {
                 test: /\.js$/,
-                exclude: /(node_modules|bower_components)/,  // (不处理node_modules 和 bower_components下的js文件) 优化处理加快速度
+                exclude: /(node_modules|bower_components|\.min\.js$)/,  // (不处理node_modules 和 bower_components下的js文件) 优化处理加快速度
                 use: {
                     loader: 'babel-loader'
                 }
